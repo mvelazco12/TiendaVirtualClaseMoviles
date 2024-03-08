@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TiendaVirtual</string>
+    <string name="name">Nombre</string>
+    <string name="msg_name">Digite el nombre</string>
 </resources>
