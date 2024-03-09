@@ -49,6 +49,8 @@ public class FormProductActivit extends AppCompatActivity {
                 if(descripcioin.isEmpty()){//si el campo queda vacio le sale en rojo y le dice que ponga el este en rojo
                     descriptionTextField.setError("Por favor ingresar la descrición");
                     return;
+                }else if(descripcioin.length()>20){
+                    descriptionTextField.setError("ome se pasóo");
                 }
 
                 if(prais.isEmpty()){//si el campo queda vacio le sale en rojo y le dice que ponga el este en rojo
@@ -61,7 +63,7 @@ public class FormProductActivit extends AppCompatActivity {
                     return;
                 }
 
-                Product mNewProdcut = new Product("Computador", "descriçión", 50000000, "No hay por ahora");
+                Product mNewProdcut = new Product("Computador", "descriçión", 50000000.0, "No hay por ahora");
                 Toast.makeText(FormProductActivit.this, "oe ", Toast.LENGTH_SHORT).show();
             }
         });

@@ -2,4 +2,7 @@
     <string name="app_name">TiendaVirtual</string>
     <string name="name">Nombre</string>
     <string name="msg_name">Digite el nombre</string>
+    <string name="agregar" />
+    <string name="agregar_item">Agregar item</string>
+    <string name="agregar_category">Agregar Category</string>
 </resources>
