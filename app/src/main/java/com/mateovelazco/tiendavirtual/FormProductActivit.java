@@ -61,7 +61,7 @@ public class FormProductActivit extends AppCompatActivity {
                     return;
                 }
 
-                Product mNewProdcut = new Product("Computador", "descriçión", 50000000, "No hay por ahora");
+                Product mNewProdcut = new Product("Computador", "descriçión", 50000000.0, "No hay por ahora");
                 Toast.makeText(FormProductActivit.this, "oe ", Toast.LENGTH_SHORT).show();
             }
         });

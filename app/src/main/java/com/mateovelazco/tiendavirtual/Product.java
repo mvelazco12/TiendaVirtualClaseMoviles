@@ -1,3 +1,4 @@
+package com.mateovelazco.tiendavirtual;
 
 // plain old java object POCO
 public class Product {
