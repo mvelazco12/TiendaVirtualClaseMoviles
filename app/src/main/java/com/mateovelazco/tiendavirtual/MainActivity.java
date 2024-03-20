@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         private User userSession = new User();
 
-        private ImageView userImageProfile;
+        private ImageView userImageProfile;//x
 
 
     @Override
